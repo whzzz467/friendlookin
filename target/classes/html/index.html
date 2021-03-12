@@ -1,0 +1,208 @@
+<!DOCTYPE>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>主页</title>
+<meta name="description" content=""/>
+<meta name="Keywords" content=""/>
+<script type="text/javascript" src="https://cdn.staticfile.org/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://cdn.staticfile.org/axios/0.20.0-0/axios.min.js"></script>
+<script type="text/javascript" src="../js/all.js"></script>
+<script type="text/javascript" src="../js/index.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.bootcss.com/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="../css/all.css">
+<link rel="stylesheet" type="text/css" href="../css/index.css">
+<script type="text/javascript">
+	$(document).ready(function(){
+		ensureLogin();
+		returnPage(1);
+		$('#search').bind('keyup', function(event) {
+			if (event.keyCode == "13") {
+				//回车执行查询
+				$("#index-demo").css('display','none');
+				$("#search-domo").css('display','block');
+				changeSeachpage("sage1");
+			}
+		});
+		$("#myModal").on('click',function(e){
+			x = e.pageX;
+			y = e.pageY;
+			var div = $('.modal-content');//获取你想要的DIV
+			var y1 = div.offset().top;  //div上面两个的点的y值
+			var y2 = y1 + div.height();//div下面两个点的y值
+			var x1 = div.offset().left;  //div左边两个的点的x值
+			var x2 = x1 + div.width();  //div右边两个点的x的值
+
+			if( x < x1 || x > x2 || y < y1 || y > y2){
+				$("#myModal").css('display','none');
+			}else{
+			};
+		});
+		$("#myNav").on('click',function(e){
+			x = e.pageX;
+			y = e.pageY;
+			var div = $('.overlay-content');//获取你想要的DIV
+			var y1 = div.offset().top;  //div上面两个的点的y值
+			var y2 = y1 + div.height();//div下面两个点的y值
+			var x1 = div.offset().left;  //div左边两个的点的x值
+			var x2 = x1 + div.width();  //div右边两个点的x的值
+
+			if( x < x1 || x > x2 || y < y1 || y > y2){
+				document.getElementById("myNav").style.height = "0";
+			}else{
+			};
+		});
+	});
+
+</script>
+</head>
+<body style="background: #348f50;
+  	background: -webkit-linear-gradient(to right, #348f50, #56b4d3);
+  	background: linear-gradient(to right, #348f50, #56b4d3); ">
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" >&times;</a>
+  <div class="overlay-content">
+  	<a href="userinfo.html">个人信息</a>
+	<a href="#">关注列表</a>
+	<a href="login.html">登录</a>
+    <a href="#" onclick="exit()">退出</a>
+  </div>
+</div>
+
+<div id="block">
+	<div id="tab">
+		<a href="egg.html"><img src="../images/指缘交友.png" style="width: 40px;height: 40px;float: left;margin-left:200px;margin-top: -5px;"></a>
+		<a href="index.html" style="margin-left:20px;float: left;">主页</a>
+		<a href="#" onclick="alertCon('MADE BY WHZ')">关于</a>
+		<span onclick="openNav()" id="down" style="margin-right:182px;float: right;padding: 18px 20px 20px 20px;
+  margin-bottom: 0px;font-size: 20px;">&#9776; 我的</span>
+		<input type="text" id="search" placeholder="搜索..." autocomplete="off">
+	</div>
+	<br><br>
+	<div class="content" style="height: 550px;min-height: 550px;">
+						<br><br><br>
+						<div class="testimonial" id="info1">
+							<div class="pic">
+								<img src="../images/头像.png" alt="" id="Pic1" class="img-rounded" style="width: 90px;height: 90px;"
+									 onclick="openImg(this.id)">
+							</div>
+
+							<div class="testimonial-review">
+								<h4 class="testimonial-title" id="Logname1">
+									Williamson
+									<small id="Email1">Web Developer</small>
+								</h4>
+								<input type="button" class="btn2" style="float: right;margin-top: -30px" value="关注" id="folower1" onclick="followOne(this.id)">
+								<p id="Message1">
+									暂无
+								</p>
+							</div>
+						</div>
+						<br><br>
+						<div class="testimonial" id="info2">
+							<div class="pic">
+								<img src="../images/头像.png" alt="" id="Pic2" class="img-rounded" style="width: 90px;height: 90px;"
+									 onclick="openImg(this.id)">
+							</div>
+
+							<div class="testimonial-review">
+								<h4 class="testimonial-title" id="Logname2">
+									miranda joy
+									<small id="Email2">Web Desginer</small>
+								</h4>
+								<input type="button" class="btn2" style="float: right;margin-top: -30px" value="关注" id="folower2" onclick="followOne(this.id)">
+								<p  id="Message2">
+									暂无
+								</p>
+							</div>
+						</div>
+						<br><br>
+						<div class="testimonial" id="info3">
+							<div class="pic">
+								<img src="../images/头像.png" alt="" id="Pic3" class="img-rounded" style="width: 90px;height: 90px;"
+									 onclick="openImg(this.id)">
+							</div>
+
+							<div class="testimonial-review">
+								<h4 class="testimonial-title" id="Logname3">
+									miranda joy
+									<small id="Email3">Web Desginer</small>
+								</h4>
+								<input type="button" class="btn2" style="float: right;margin-top: -30px" value="关注" id="folower3" onclick="followOne(this.id)">
+								<p  id="Message3">
+									暂无
+								</p>
+							</div>
+	</div>
+
+
+	</div>
+	<div class="demo" style="min-height: 90px;" id="index-demo">
+		<nav class="pagination-outer" aria-label="Page navigation">
+			<ul class="pagination">
+				<li class="page-item">
+					<a href="#" class="page-link" aria-label="Previous" id="pageback" onclick="bafPage(this.id)">
+						<span aria-hidden="true">&laquo;</span>
+					</a>
+				</li>
+				<li class="page-item active" id="page1"><a class="page-link" href="#" id="age1" onclick="changePage(this.id)">1</a></li>
+				<li class="page-item" id="page2"><a class="page-link" href="#" id="age2" onclick="changePage(this.id)">2</a></li>
+				<li class="page-item" id="page3"><a class="page-link" href="#" id="age3" onclick="changePage(this.id)">3</a></li>
+				<li class="page-item" id="page4"><a class="page-link" href="#" id="age4" onclick="changePage(this.id)">4</a></li>
+				<li class="page-item" id="page5"><a class="page-link" href="#" id="age5" onclick="changePage(this.id)">5</a></li>
+				<li class="page-item">
+					<a href="#" class="page-link" aria-label="Next" id="pageforward" onclick="bafPage(this.id)">
+						<span aria-hidden="true">&raquo;</span>
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+	<div class="demo" style="min-height: 90px;display: none;" id="search-domo">
+		<nav class="pagination-outer" aria-label="Page navigation">
+			<ul class="pagination">
+				<li class="page-item">
+					<a href="#" class="page-link" aria-label="Previous" id="spageback" onclick="bafSearchPage(this.id)">
+						<span aria-hidden="true">&laquo;</span>
+					</a>
+				</li>
+				<li class="page-item active" id="spage1"><a class="page-link" href="#" id="sage1" onclick="changeSeachpage(this.id)">1</a></li>
+				<li class="page-item" id="spage2"><a class="page-link" href="#" id="sage2" onclick="changeSeachpage(this.id)">2</a></li>
+				<li class="page-item" id="spage3"><a class="page-link" href="#" id="sage3" onclick="changeSeachpage(this.id)">3</a></li>
+				<li class="page-item" id="spage4"><a class="page-link" href="#" id="sage4" onclick="changeSeachpage(this.id)">4</a></li>
+				<li class="page-item" id="spage5"><a class="page-link" href="#" id="sage5" onclick="changeSeachpage(this.id)">5</a></li>
+				<li class="page-item">
+					<a href="#" class="page-link" aria-label="Next" id="spageforward" onclick="bafSearchPage(this.id)">
+						<span aria-hidden="true">&raquo;</span>
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+</div>
+	<div id="myModal" class="modal">
+		<!-- 弹窗内容 -->
+		<div class="modal-content">
+			<div class="modal-header">
+				<h2>提醒</h2>
+			</div>
+			<div class="modal-body" >
+				<p id="alertCon">弹窗文本...</p>
+				<br><br>
+				<input type="submit" value="确认" onclick="closeAlert()" class="btn1">
+				<br>
+			</div>
+		</div>
+
+	</div>
+<!-- 弹窗 -->
+<div id="imgmyModal" class="imodal">
+
+	<!-- 关闭按钮 -->
+	<span class="iclose" onclick="document.getElementById(&#039;imgmyModal&#039;).style.display=&#039;none&#039;">&times;</span>
+	<!-- 弹窗内容 -->
+	<img class="imodal-content" id="img">
+</div>
+</body>
+</html>

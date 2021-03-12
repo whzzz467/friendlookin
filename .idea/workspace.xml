@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7ea11399-54b4-4609-924c-33eee373d5de" name="Default Changelist" comment="交友平台(springboot+jquery+html+css)">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/058fee8d-87e8-44c5-aa46-437e6f8a3682.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/058fee8d-87e8-44c5-aa46-437e6f8a3682/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baidu_aip_java_sdk_4_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_2_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_1_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_38.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_38.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_16_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_21_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_24_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_1_3_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20160810.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_vintage_junit_vintage_engine_5_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_3_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/friendlooking.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/FriendLookingApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/config/BaiDuOCR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/userController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/dao/userRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/dao/userfollowerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/entity/user.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/entity/userfollower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/service/FLKService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/service/FLKServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/css/all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/css/egg.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/css/info.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/css/loginAndRegeist.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/html/egg.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/html/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/html/userinfo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/Moonlit Asteroid.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/Portrait.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/Winter.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/fiend.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/头像.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/指缘交友.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/朋友圈.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/身份证反面.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/身份证正面.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/js/all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/js/egg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/js/info.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/js/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/userPic/Jessia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/userPic/Jhon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/userPic/Jia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/userPic/Li.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/userPic/Lin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/userPic/Test1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/userPic/Test2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/userPic/Test3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/userPic/Test4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/userPic/Zhang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/userPic/a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/userPic/a1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/userPic/a1idcardbackword.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/userPic/a1idcardforword.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/userPic/aaaa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/userPic/b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/userPic/bbbb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/userPic/bbbbidcardbackword.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/userPic/bbbbidcardforword.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/userPic/bgm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/userPic/chen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/userPic/eRRor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/userPic/test6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/userPic/test6idcardbackword.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/userPic/test6idcardforword.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/userPic/wu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/userPic/wuidcardbackword.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/userPic/wuidcardforword.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/FriendLookingApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/friendlooking.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/demo/FriendLookingApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/demo/config/BaiDuOCR.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/demo/controller/userController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/demo/dao/userRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/demo/dao/userfollowerRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/demo/entity/user.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/demo/entity/userfollower.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/demo/service/FLKService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/demo/service/FLKServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/css/all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/css/egg.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/css/info.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/css/loginAndRegeist.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/html/egg.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/html/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/html/userinfo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/images/Moonlit Asteroid.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/images/Portrait.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/images/Winter.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/images/fiend.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/images/头像.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/images/指缘交友.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/images/朋友圈.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/images/身份证反面.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/images/身份证正面.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/js/all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/js/egg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/js/info.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/js/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/userPic/Jessia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/userPic/Jhon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/userPic/Jia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/userPic/Li.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/userPic/Lin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/userPic/Test1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/userPic/Test2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/userPic/Test3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/userPic/Test4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/userPic/Zhang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/userPic/a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/userPic/a1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/userPic/a1idcardbackword.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/userPic/a1idcardforword.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/userPic/aaaa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/userPic/b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/userPic/bbbb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/userPic/bbbbidcardbackword.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/userPic/bbbbidcardforword.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/userPic/bgm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/userPic/chen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/userPic/eRRor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/userPic/test6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/userPic/test6idcardbackword.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/userPic/test6idcardforword.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/userPic/wu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/userPic/wuidcardbackword.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/userPic/wuidcardforword.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/example/demo/FriendLookingApplicationTests.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1l0TnMeD3WTEiXj0PKrYC7rplpe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.demo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\java代码\friendlooking\src\main\resources" />
+      <recent name="F:\java代码\friendlooking\src\main\images" />
+      <recent name="F:\java代码\friendlooking\src\main\css" />
+      <recent name="F:\java代码\friendlooking\src\main\html" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="FriendLookingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="friendlooking" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.FriendLookingApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7ea11399-54b4-4609-924c-33eee373d5de" name="Default Changelist" comment="" />
+      <created>1606733175042</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606733175042</updated>
+      <workItem from="1606733178757" duration="15316000" />
+      <workItem from="1606993332613" duration="9854000" />
+      <workItem from="1607070942800" duration="11784000" />
+      <workItem from="1607143532272" duration="17268000" />
+      <workItem from="1607240597057" duration="8826000" />
+      <workItem from="1607338235361" duration="8437000" />
+      <workItem from="1607388817558" duration="4534000" />
+      <workItem from="1607601673739" duration="6318000" />
+      <workItem from="1607948670796" duration="1308000" />
+      <workItem from="1607952224394" duration="1429000" />
+      <workItem from="1607956959263" duration="941000" />
+      <workItem from="1608116372519" duration="23000" />
+      <workItem from="1608205719607" duration="11299000" />
+      <workItem from="1608300362365" duration="4736000" />
+      <workItem from="1608361409974" duration="19321000" />
+      <workItem from="1608441908482" duration="5487000" />
+      <workItem from="1608475443364" duration="214000" />
+      <workItem from="1608543224442" duration="6221000" />
+      <workItem from="1608647626252" duration="679000" />
+      <workItem from="1608721091204" duration="5258000" />
+      <workItem from="1609166143754" duration="123000" />
+      <workItem from="1609202788230" duration="662000" />
+      <workItem from="1609250862311" duration="115000" />
+      <workItem from="1609326571397" duration="9912000" />
+      <workItem from="1609389644407" duration="14527000" />
+      <workItem from="1609677393314" duration="1194000" />
+      <workItem from="1609679174610" duration="668000" />
+      <workItem from="1609755390311" duration="2165000" />
+      <workItem from="1610714706781" duration="1246000" />
+      <workItem from="1610763213702" duration="7206000" />
+      <workItem from="1610871631947" duration="7929000" />
+      <workItem from="1610935606973" duration="5552000" />
+      <workItem from="1615531048685" duration="26000" />
+      <workItem from="1615549677468" duration="2567000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="交友平台(springboot+jquery+html+css)" />
+    <option name="LAST_COMMIT_MESSAGE" value="交友平台(springboot+jquery+html+css)" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="74" key="#Notifications" timestamp="1615553958851">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="74" key="#Notifications/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1615553958851" />
+    <state x="527" y="225" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608562960956">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state x="527" y="225" key="#com.intellij.fileTypes.FileTypeChooser/-1920.0.1549.831/0.0.1549.831@0.0.1549.831" timestamp="1608562960956" />
+    <state x="575" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1609423548390">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="575" y="122" key="#com.intellij.ide.util.MemberChooser/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1609423548390" />
+    <state x="580" y="123" key="#com.intellij.ide.util.MemberChooser/-1920.0.1549.831/0.0.1549.831@0.0.1549.831" timestamp="1608302733240" />
+    <state x="580" y="123" key="#com.intellij.ide.util.MemberChooser/0.0.1549.831@0.0.1549.831" timestamp="1608724982117" />
+    <state x="502" y="344" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1607259031204">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state x="502" y="344" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/-1920.0.1549.831/0.0.1549.831@0.0.1549.831" timestamp="1607259031204" />
+    <state x="553" y="279" width="429" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1610942416817">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="553" y="279" width="429" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1610942416817" />
+    <state x="573" y="304" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1607259033252">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state x="573" y="304" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/-1920.0.1549.831/0.0.1549.831@0.0.1549.831" timestamp="1607259033252" />
+    <state x="505" y="166" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1607610616430">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state x="505" y="166" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/-1920.0.1549.831/0.0.1549.831@0.0.1549.831" timestamp="1607610616430" />
+    <state x="264" y="10" key="CommitChangelistDialog2" timestamp="1615553862595">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="264" y="10" key="CommitChangelistDialog2/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1615553862595" />
+    <state x="550" y="173" key="FileChooserDialogImpl" timestamp="1615553724784">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="-1370" y="173" key="FileChooserDialogImpl/-1920.0.1536.824/0.0.1536.824@-1920.0.1536.824" timestamp="1615531075015" />
+    <state x="550" y="173" key="FileChooserDialogImpl/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1615553724784" />
+    <state x="555" y="174" key="FileChooserDialogImpl/-1920.0.1549.831/0.0.1549.831@0.0.1549.831" timestamp="1607070984362" />
+    <state x="555" y="174" key="FileChooserDialogImpl/0.0.1549.831@0.0.1549.831" timestamp="1608721394283" />
+    <state x="629" y="308" key="Github.ShareDialog" timestamp="1615554003786">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="629" y="308" key="Github.ShareDialog/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1615554003786" />
+    <state width="1493" height="93" key="GridCell.Tab.0.bottom" timestamp="1610898400756">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="151" key="GridCell.Tab.0.bottom/-1920.0.1536.824/0.0.1536.824@-1920.0.1536.824" timestamp="1610726792654" />
+    <state width="1493" height="93" key="GridCell.Tab.0.bottom/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1610898400756" />
+    <state width="1506" height="131" key="GridCell.Tab.0.bottom/-1920.0.1549.831/0.0.1549.831@0.0.1549.831" timestamp="1609166272716" />
+    <state width="1506" height="131" key="GridCell.Tab.0.bottom/0.0.1549.831@0.0.1549.831" timestamp="1609203455056" />
+    <state width="1877" height="333" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609329924476" />
+    <state width="1493" height="93" key="GridCell.Tab.0.center" timestamp="1610898400756">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="151" key="GridCell.Tab.0.center/-1920.0.1536.824/0.0.1536.824@-1920.0.1536.824" timestamp="1610726792654" />
+    <state width="1493" height="93" key="GridCell.Tab.0.center/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1610898400756" />
+    <state width="1506" height="131" key="GridCell.Tab.0.center/-1920.0.1549.831/0.0.1549.831@0.0.1549.831" timestamp="1609166272716" />
+    <state width="1506" height="131" key="GridCell.Tab.0.center/0.0.1549.831@0.0.1549.831" timestamp="1609203455056" />
+    <state width="1877" height="333" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609329924475" />
+    <state width="1493" height="93" key="GridCell.Tab.0.left" timestamp="1610898400756">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="151" key="GridCell.Tab.0.left/-1920.0.1536.824/0.0.1536.824@-1920.0.1536.824" timestamp="1610726792654" />
+    <state width="1493" height="93" key="GridCell.Tab.0.left/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1610898400756" />
+    <state width="1506" height="131" key="GridCell.Tab.0.left/-1920.0.1549.831/0.0.1549.831@0.0.1549.831" timestamp="1609166272716" />
+    <state width="1506" height="131" key="GridCell.Tab.0.left/0.0.1549.831@0.0.1549.831" timestamp="1609203455056" />
+    <state width="1877" height="333" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609329924475" />
+    <state width="1493" height="93" key="GridCell.Tab.0.right" timestamp="1610898400756">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="151" key="GridCell.Tab.0.right/-1920.0.1536.824/0.0.1536.824@-1920.0.1536.824" timestamp="1610726792654" />
+    <state width="1493" height="93" key="GridCell.Tab.0.right/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1610898400756" />
+    <state width="1506" height="131" key="GridCell.Tab.0.right/-1920.0.1549.831/0.0.1549.831@0.0.1549.831" timestamp="1609166272716" />
+    <state width="1506" height="131" key="GridCell.Tab.0.right/0.0.1549.831@0.0.1549.831" timestamp="1609203455056" />
+    <state width="1877" height="333" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609329924475" />
+    <state width="1493" height="93" key="GridCell.Tab.1.bottom" timestamp="1610898400757">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="151" key="GridCell.Tab.1.bottom/-1920.0.1536.824/0.0.1536.824@-1920.0.1536.824" timestamp="1610726792655" />
+    <state width="1493" height="93" key="GridCell.Tab.1.bottom/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1610898400757" />
+    <state width="1506" height="131" key="GridCell.Tab.1.bottom/-1920.0.1549.831/0.0.1549.831@0.0.1549.831" timestamp="1609166272716" />
+    <state width="1506" height="131" key="GridCell.Tab.1.bottom/0.0.1549.831@0.0.1549.831" timestamp="1609203455056" />
+    <state width="1877" height="333" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609329924476" />
+    <state width="1493" height="93" key="GridCell.Tab.1.center" timestamp="1610898400757">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="151" key="GridCell.Tab.1.center/-1920.0.1536.824/0.0.1536.824@-1920.0.1536.824" timestamp="1610726792655" />
+    <state width="1493" height="93" key="GridCell.Tab.1.center/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1610898400757" />
+    <state width="1506" height="131" key="GridCell.Tab.1.center/-1920.0.1549.831/0.0.1549.831@0.0.1549.831" timestamp="1609166272716" />
+    <state width="1506" height="131" key="GridCell.Tab.1.center/0.0.1549.831@0.0.1549.831" timestamp="1609203455056" />
+    <state width="1877" height="333" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609329924476" />
+    <state width="1493" height="93" key="GridCell.Tab.1.left" timestamp="1610898400757">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="151" key="GridCell.Tab.1.left/-1920.0.1536.824/0.0.1536.824@-1920.0.1536.824" timestamp="1610726792655" />
+    <state width="1493" height="93" key="GridCell.Tab.1.left/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1610898400757" />
+    <state width="1506" height="131" key="GridCell.Tab.1.left/-1920.0.1549.831/0.0.1549.831@0.0.1549.831" timestamp="1609166272716" />
+    <state width="1506" height="131" key="GridCell.Tab.1.left/0.0.1549.831@0.0.1549.831" timestamp="1609203455056" />
+    <state width="1877" height="333" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609329924476" />
+    <state width="1493" height="93" key="GridCell.Tab.1.right" timestamp="1610898400757">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="151" key="GridCell.Tab.1.right/-1920.0.1536.824/0.0.1536.824@-1920.0.1536.824" timestamp="1610726792655" />
+    <state width="1493" height="93" key="GridCell.Tab.1.right/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1610898400757" />
+    <state width="1506" height="131" key="GridCell.Tab.1.right/-1920.0.1549.831/0.0.1549.831@0.0.1549.831" timestamp="1609166272716" />
+    <state width="1506" height="131" key="GridCell.Tab.1.right/0.0.1549.831@0.0.1549.831" timestamp="1609203455056" />
+    <state width="1877" height="333" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609329924476" />
+    <state width="1506" height="131" key="GridCell.Tab.2.bottom" timestamp="1607003286015">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state width="1506" height="131" key="GridCell.Tab.2.bottom/-1920.0.1549.831/0.0.1549.831@0.0.1549.831" timestamp="1607003286015" />
+    <state width="1506" height="131" key="GridCell.Tab.2.center" timestamp="1607003286015">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state width="1506" height="131" key="GridCell.Tab.2.center/-1920.0.1549.831/0.0.1549.831@0.0.1549.831" timestamp="1607003286015" />
+    <state width="1506" height="131" key="GridCell.Tab.2.left" timestamp="1607003286015">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state width="1506" height="131" key="GridCell.Tab.2.left/-1920.0.1549.831/0.0.1549.831@0.0.1549.831" timestamp="1607003286015" />
+    <state width="1506" height="131" key="GridCell.Tab.2.right" timestamp="1607003286015">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state width="1506" height="131" key="GridCell.Tab.2.right/-1920.0.1549.831/0.0.1549.831@0.0.1549.831" timestamp="1607003286015" />
+    <state x="338" y="87" key="SettingsEditor" timestamp="1615553695342">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="338" y="87" key="SettingsEditor/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1615553695342" />
+    <state x="-1444" y="242" key="com.intellij.ide.util.TipDialog" timestamp="1615531063288">
+      <screen x="-1920" y="0" width="1536" height="824" />
+    </state>
+    <state x="-1444" y="242" key="com.intellij.ide.util.TipDialog/-1920.0.1536.824/0.0.1536.824@-1920.0.1536.824" timestamp="1615531063288" />
+    <state x="476" y="242" key="com.intellij.ide.util.TipDialog/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1610935606923" />
+    <state x="480" y="244" key="com.intellij.ide.util.TipDialog/-1920.0.1549.831/0.0.1549.831@0.0.1549.831" timestamp="1609166142896" />
+    <state x="480" y="244" key="com.intellij.ide.util.TipDialog/0.0.1549.831@0.0.1549.831" timestamp="1609202804445" />
+    <state x="595" y="305" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609326571397" />
+    <state x="179" y="32" key="new project wizard" timestamp="1608561892367">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state x="179" y="32" key="new project wizard/-1920.0.1549.831/0.0.1549.831@0.0.1549.831" timestamp="1608561892367" />
+    <state x="482" y="49" key="refactoring.ChangeSignatureDialog" timestamp="1608386026240">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state x="482" y="49" key="refactoring.ChangeSignatureDialog/-1920.0.1549.831/0.0.1549.831@0.0.1549.831" timestamp="1608386026240" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1609337026912">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1609337026912" />
+    <state x="433" y="151" width="672" height="673" key="search.everywhere.popup" timestamp="1609395457322">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="433" y="151" width="672" height="673" key="search.everywhere.popup/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1609395457322" />
+    <state x="437" y="152" width="672" height="678" key="search.everywhere.popup/-1920.0.1549.831/0.0.1549.831@0.0.1549.831" timestamp="1608384959530" />
+  </component>
+</project>

@@ -1,0 +1,271 @@
+body{
+	/*margin:auto;*/
+	padding: 0px;
+    /*font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;*/
+	/*background-image: url('../images/Winter.jpg');*/
+}
+
+#block{
+	width: 100%;
+	min-height: 700px;
+	/*border: 1px solid black;*/
+	min-width: 1300px;
+	margin: 0 auto;
+}
+.content{
+    margin:auto;
+    position:relative;
+    width: 1150px;
+    min-width: 1150px;
+    min-height: 600px;
+    background:rgba(40,57,101,.9);
+    border-radius: 5px;
+    box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+}
+.content .content-tab{
+    color: white;
+    font-size:22px;
+    padding-bottom:5px;
+    margin:15px 15px 10px 60px;
+    display:inline-block;
+    border-bottom:2px solid yellow;
+    cursor:default;
+}
+
+#search{
+    background-image: url('https://static.runoob.com/images/mix/searchicon.png'); /* 搜索按钮 */
+    background-position: 10px 12px; /* 定位搜索按钮 */
+    background-repeat: no-repeat; /* 不重复图片 */
+    width: 400px;
+    height: 40px;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 0px solid #ddd;
+    border-radius: 10px;
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+    /*margin-right: 200px;*/
+    float: right;
+    box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+}
+#search:hover ,#search:focus{
+    outline:none;
+    box-shadow:0 12px 15px 0 rgba(128,0,0,.35),0 17px 50px 0 rgba(128,0,0,.35);
+}
+
+#tab{
+	overflow: hidden;
+  	/*background-color: #333;*/
+  	background: #348f50; 
+  	background: -webkit-linear-gradient(to right, #348f50, #56b4d3); 
+  	background: linear-gradient(to right, #348f50, #56b4d3); 
+  	/*background-image: url('../images/Moonlit Asteroid.jpg');*/
+  	height: 60px;
+    width: 100%;
+  	box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+}
+
+#tab a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 18px 20px 20px 20px;
+  margin-bottom: 0px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+#tab span{
+	float: right;cursor:pointer;font-size: 17px;display: block;color: #f2f2f2;padding: 14px 16px;
+}
+
+#tab a:hover {
+  /*background-color: #ddd;*/
+  color: lightgray;
+}
+
+#down:hover{
+	color: lightgray;
+}
+
+#tab .icon {
+  display: none;
+}
+
+.overlay {
+    height: 0%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    /*background-color: rgba(0,0,0, 0.5);*/
+    background: whitesmoke;
+    overflow-y: hidden;
+    transition: 0.3s;
+    box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: black;
+    display: block;
+    transition: 0.1s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: gray;
+    text-decoration:none;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 65px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 36px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+/* 弹窗 (background) */
+.modal {
+    display: none; /* 默认隐藏 */
+    position: fixed;
+    z-index: 3;
+    padding-top: 100px;
+    left: 0;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+/* 弹窗内容 */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    top:30px;
+    /*border: 0px solid #888;*/
+    width: 50%;
+    /*box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);*/
+    /*box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);*/
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    border-radius: 5px;
+}
+
+/* 添加动画 */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:30px; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:30px; opacity:1}
+}
+
+/* 关闭按钮 */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    /*padding: 2px 10px;*/
+    padding-bottom: 5px;
+    padding-top: 5px;
+    background-color:IndianRed;
+    color: white;
+    text-align: center;
+    border: 0;
+    /*box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);*/
+}
+
+.modal-body {
+    padding: 2px 16px;
+    background-color: LightCoral;
+    color: white;
+    border: 0;
+    text-align: center;
+}
+#alertCon{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+.btn1{
+    color: white;
+    margin:0 auto;
+    align-self: center;
+    border:none;
+    display:block;
+    width: 100px;
+    height: 40px;
+    border-radius:5px;
+    background:darkred;
+    box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+    margin-top: 10px;
+}
+.btn1:hover{
+    background:LightCoral;
+}
+.btn1:focus{
+    outline: none;
+}
+.btn2{
+    color: #2ecc71;
+    margin:0 auto;
+    align-self: center;
+    font-size: 18px;
+    border:none;
+    display:block;
+    width: 100px;
+    height: 40px;
+    border-radius:5px;
+    background: rgba(40,57,101,.9);
+    box-shadow: inset 0 0 5px 1px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.5);
+}
+.btn2:hover{
+    text-shadow: 0 0 15px rgba(46, 204, 113, 0.5);
+    background-color: whitesmoke;
+    color: #56b4d3;
+}
+.btn2:focus{
+    outline: none;
+}
+

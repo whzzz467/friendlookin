@@ -1,0 +1,170 @@
+.demo{ /*background-color: #2ecc71; */}
+.pagination-outer{ text-align: center; }
+.pagination{
+    background: white;
+    font-family: 'Sniglet', cursive;
+    padding: 5px;
+    box-shadow: inset 0 0 2px 1px rgba(0, 0, 0, 0.5);
+    /*box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);*/
+    border-radius: 50px;
+    display: inline-flex;
+    position: relative;
+}
+.pagination li a.page-link{
+    color: #56b4d3;
+    background-color: whitesmoke;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    height: 45px;
+    width: 50px;
+    margin: 0 2px 0 0;
+    /*border: 1px solid #202020;
+    border-top: 1px solid #353535;*/
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 0;
+    position: relative;
+    /*z-index: 1;*/
+    transition: all 0.3s ease 0s;
+}
+.pagination li.active a.page-link,
+.pagination li a.page-link:hover,
+.pagination li.active a.page-link:hover{
+    color: #2ecc71;
+    background: rgba(40,57,101,.9);
+    text-shadow: 0 0 15px rgba(46, 204, 113, 0.5);
+    /*border: 1px solid transparent;*/
+    /*border-bottom: 1px solid #252525;*/
+    box-shadow: inset 0 0 5px 1px rgba(0, 0, 0, 0.5);
+}
+.pagination li:first-child a.page-link{ border-radius: 40px 0 0 40px; }
+.pagination li:last-child a.page-link{
+    margin-right: 0;
+    border-radius: 0 40px 40px 0;
+}
+/*@media only screen and (max-width: 480px){
+    .pagination{
+        display: block;
+        border-radius: 20px;
+    }
+    .pagination li{
+        margin: 5px 2px;
+        display: inline-block;
+    }
+}
+/*----------------------------*/
+.testimonial{
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    padding: 15px;
+    /*margin: 0 15px;*/
+    margin-left:25px ;
+    width: 1100px;
+    min-width: 1100px;
+    height: 120px;
+    /*box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);*/
+    -webkit-box-shadow: inset 0px 0px 10px 0px #A1A1A1;
+    -moz-box-shadow: inset 0px 0px 10px 0px #A1A1A1;
+    -o-box-shadow: inset 0px 0px 10px 0px #A1A1A1;
+    -ms-box-shadow: inset 0px 0px 10px 0px #A1A1A1;
+    box-shadow: inset 0px 0px 10px 0px #A1A1A1;
+}
+.testimonial .pic{
+    width: 90px;
+    height: 90px;
+    margin: 0 30px 15px 0;
+    float: left;
+}
+.testimonial .pic img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+.testimonial .testimonial-title{
+    color: #000000;
+    font-size: 16px;
+    margin-top: 5px;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+.testimonial .testimonial-title small{
+    display: block;
+    color: #dc005a;
+    font-size: 14px;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.testimonial .testimonial-review p{
+    color: #888888;
+    font-size: 15px;
+    font-style: italic;
+    line-height: 19px;
+    margin-bottom: 0;
+}
+/*图片放大----------------------------------------------------------------/
+
+/* 弹窗背景 */
+.imodal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 3; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+}
+
+/* 图片 */
+.imodal-content {
+    margin: auto;
+    display: block;
+    width: 30%;
+    /*max-width: 700px;*/
+}
+
+/* 添加动画 */
+.imodal-content{
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)}
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+/* 关闭按钮 */
+.iclose {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: ghostwhite;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.iclose:hover,
+.iclose:focus {
+    color: gray;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 小屏幕中图片宽度为 100% */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}

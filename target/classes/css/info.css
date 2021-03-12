@@ -1,0 +1,52 @@
+.info-table tb th{
+}
+.info-table-th{
+    width: 80px;
+    text-align: right;
+    padding: 10px 10px 30px 10px;
+    font-size: 13px;
+}
+.info-table-td{
+    padding: 10px 10px 30px 10px;
+}
+.table-input{
+    color:white;
+    display:block;
+    border:none;
+    /*height: 40px;*/
+    width: 300px;
+    padding:15px 20px;
+    border-radius:25px;
+    background:rgba(255,255,255,.3);
+}
+.info-save,.table-biginput,.table-input:focus {
+    outline:none;
+    border: 0px solid red;
+}
+.table-biginput{
+    color:white;
+    display:block;
+    border:none;
+    height: 100px;
+    width: 300px;
+    padding:15px 20px;
+    border-radius:25px;
+    background:rgba(255,255,255,.3);
+    resize:none;
+}
+.info-save{
+    color: white;
+    margin:0 auto;
+    align-self: center;
+    border:none;
+    display:block;
+    width: 100px;
+    height: 40px;
+    border-radius:25px;
+    background:lightseagreen;
+    box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+    margin-top: 10px;
+}
+.info-save:hover{
+    background:mediumseagreen;
+}
